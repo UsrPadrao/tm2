@@ -39,9 +39,9 @@
 
         // -- CONSTANTS N SUCH -- //
 
-        var username = "27";
-        var host = "CHAN";
-        var cd = "/jsh";
+        var username = "Usr";
+        var host = "Pad";
+        var cd = "/Profile";
         var promptString = "<p id = 'prompt' >" + username + "@" + host + "[" + cd + "]: </p>";
         var inputString = "<pre id  = 'input' contentEditable = 'true'></pre>";
         var inputBlock = "<pre id = 'caret'>&#9608;</pre>";
@@ -61,7 +61,7 @@
 
         $(document).ready(function() {	
 			print("27chan");
-			print("<p><i>Sugestes: 27chan.org/b</i></p>");
+			print("<p><i>27chan.org/b</i></p>");
 			
 			$("#terminal").append("<br>" + promptString + inputString + inputBlock + postInput);
             $("#input").focus();
@@ -78,18 +78,18 @@
 							"rss", "discord", "trello",
 						   ];
         
-        var HELP_LIST = ["The console prints out the arguments to this function", 
-						 "Clears and redraws the terminal",
-                         "Displays a list of recognised functions", 
-						 "Performs a Google Search containing arguments",
-                         "Redirects to Facebook, taking no arguments", 
-						 "Performs a YouTube search with arguments",
-                         "Redirects to argument.com, or argument.argument2 if specified", 
-                         "displays generic about information", 
-						 "Redirects to wikipedia.com", "Changes current location",
-                         "Shows files in current location", 
-						 "Prints the current location", 
-						 "Gets an RSS feed. Arg 1 = Source, Arg 2 = number of results",
+        var HELP_LIST = ["O console mostra os argumentos dessa função", 
+						 "Limpa o terminal",
+                         "Exibe uma lista das funções disponíveis", 
+						 "Realiza uma pesquisa no Google com argumentos",
+                         "Redireciona para o facebook", 
+						 "Realiza uma pesquisa no Youtube com argumentos",
+                         "Redireciona para argumento.com, ou argumento.argumento2 se for especificado", 
+                         "Exibe informaçes gerais", 
+						 "Redireciona para wikipedia.com", "Altera localização atual",
+                         "Mostra os arquivos da pasta atual", 
+						 "Mostra sua localização atual", 
+						 "Obtém um feed RSS. Arg 1 = Fonte, Arg 2 = Número de resultados",
 						 "Redirects to Discord IRC", "Life Planning :)"];
 						 
 		var historyList = [0,];
